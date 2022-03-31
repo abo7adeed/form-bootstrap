@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.opp {
+   
+    background-image: url("../img/3261849.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    min-height: 700px;
+    background-color: rgba(0,0,0,.5) ;
+   
+}
+.container {
+   
+    align-items: center;
+    background: transparent;
+    box-shadow: 0 0 8px rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 100px;
+    margin: 10vh auto;
+    height: 600px;
+}
+
+.trans {
+    padding-top: 15px;
+}
+.trans input{
+    background: transparent;  
+   
+}
+.trans option{
+    background: transparent;  
+}
+.form-label{
+color: azure;
+font-family: sans-serif;
+}
+.title {
+    color: rgb(180, 184, 184);
+font-family: sans-serif;
+text-align: center;
+font-weight: 200;
+text-transform: capitalize;
+}
+.title-head{
+    color: azure;
+font-family: sans-serif;
+text-align: center;
+font-weight: 700;
+text-transform: uppercase;
+padding-top: 30px;
+}
+.trans{
+    background: transparent; 
+}
+
+.progress{
+  margin: 25px;
+
+  
+}
+.opp form .btn{
+    margin-top: 30px;
+/* margin-left: 200px; */
+padding-left: 15px;
+padding-right: 15px;
+border-radius: 30px;
+width: 30%;
+border-color: aliceblue;
+
+background: transparent; 
+}
+.opp form .btn:hover{
+    background-image: linear-gradient(to right, #2F3A4F ,#fff);
+}
+@media screen and (max-width: 576px) {
+ 
+    .trans {
+        padding-top: 0px;
+        
+    }
+    .non{
+        display: none;
+    }
+    .opp form .btn{
+        margin: 0px;
+      
+    }
+
+  }
+
+#bb{
+      
+    background: transparent; 
+    margin-top: 30px;
+    margin-left: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 40px;
+    width: 60%;
+    border-color: aliceblue;
+    
+   
+  }
+  #cc:hover{
+    background: transparent; 
+  }
+  #cc{
+      
+    margin-top: 30px;
+    margin-left: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    width: 60%;
+    border-color: aliceblue;
+    
+    background: transparent; 
+  }
+  .birth{
+      color: #fff;
+      background: transparent; 
+    margin-left: 30px;  
+    }
+    .div2,.div3{
+        display: none;
+    }
+    .Thank{
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 65px;
+        
+    }
+     #ss{
+        background: transparent; 
+        margin-top: 30px;
+    /* margin-left: 200px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    width: 30%;
+    border-color: aliceblue;
+    background: transparent; 
+    }
+    #ss:hover{
+        background-image: linear-gradient(to right, #2F3A4F ,#fff);
+    }
+    #cc:hover{
+        background-image: linear-gradient(to right, #2F3A4F ,#fff);
+    }
+    #bb:hover{
+        background-image: linear-gradient(to right, #2F3A4F ,#fff);
+    }
